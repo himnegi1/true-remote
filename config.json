@@ -1,0 +1,37 @@
+{
+  "maxJobs": 5,
+  "maxPerCompany": 2,
+  "_allowCountryLockedRemote_note": "false = TRUE anywhere-remote only (US-only/EU-only roles dropped). Set true to ALSO include country-locked remote roles (e.g. US-remote) for more volume.",
+  "allowCountryLockedRemote": false,
+  "skills": ["golang", "c++"],
+  "_reachableRegions_note": "Roles REACHABLE FROM INDIA. Kept only if the location contains one of these. Includes 'india' because the roster is all global-PAY companies, so a ClickHouse/GitLab role open to India-remote pays globally. US-only / single-EU-country roles are dropped.",
+  "reachableRegions": [
+    "worldwide", "world wide", "anywhere", "globally", "global", "international",
+    "work from anywhere", "fully remote", "remote - remote", "any location",
+    "india", "south asia", "emea", "apac", "asia pacific", "asia-pacific",
+    "asia/pacific", "asia", "singapore", "dubai", "uae", "united arab emirates",
+    "middle east"
+  ],
+  "excludeTitle": [
+    "intern", "internship", "praktikum", "werkstudent", "apprentice", "trainee",
+    "junior", "entry level", "entry-level", "new grad", "new-grad", "graduate",
+    "go-to-market", "go to market", "gtm", "account executive", "sales",
+    "recruiter", "marketing", "customer success", "solutions engineer",
+    "solutions architect", "sales engineer", "developer advocate", "developer relations",
+    "forward deployed", "field engineer", "implementation",
+    "firmware", "embedded", "kernel", "device driver", "driver", "compiler",
+    "fpga", "asic", "rtl", "verilog", "vhdl", "bootloader",
+    "low latency", "low-latency", "high frequency", "high-frequency", "hft",
+    "gameplay", "unreal engine", "game engine", "game developer"
+  ],
+  "excludeCompany": [
+    "a.team", "lemon.io", "toptal", "turing", "andela", "crossover",
+    "x-team", "gun.io", "arc.dev", "braintrust", "gigster", "upwork",
+    "fiverr", "remotasks", "outlier", "deel talent", "staffing", "staff augmentation",
+    "jane street", "jane-street", "citadel", "hudson river", "jump trading",
+    "optiver", " imc", "drw", "tower research", "akuna", "maven securities",
+    "xtx", "quadrature", "susquehanna", "two sigma", "hrt", "flow traders",
+    "virtu", "headlands", "radix trading", "qube research"
+  ],
+  "excludeLocationOnly": ["india"]
+}

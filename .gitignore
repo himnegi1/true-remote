@@ -1,0 +1,14 @@
+# Local env for testing (never commit your bot token!)
+.env
+*.local
+
+# Claude Code local settings (personal, machine-specific)
+.claude/
+
+# Go build artifacts
+/trueremote
+/trueremote.exe
+/jobscout
+/jobscout.exe
+*.test
+*.out

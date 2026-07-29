@@ -1,0 +1,44 @@
+{
+  "_comment": "Company career-portal (ATS) slugs, each VERIFIED live. Domains chosen for application-level Go/C++ (infra, databases, fintech, crypto, gaming, AI, dev-tools) — NOT HFT/embedded. Add more: put a company's board slug (from boards.greenhouse.io/<slug>, jobs.ashbyhq.com/<slug>, or jobs.lever.co/<slug>) in the right list. Dead slugs are skipped safely.",
+
+  "greenhouse": [
+    "datadog", "cloudflare", "mongodb", "grafanalabs", "coinbase", "databricks",
+    "stripe", "reddit", "elastic", "robinhood", "twitch", "samsara", "gitlab", "dropbox",
+
+    "adyen", "affirm", "airbnb", "airtable", "anthropic", "asana", "brex", "chime",
+    "circleci", "clickhouse", "cockroachlabs", "coreweave", "discord", "faire", "fastly",
+    "figma", "fireworksai", "gusto", "hellofresh", "imply", "instacart", "lyft", "netlify",
+    "newrelic", "okta", "pagerduty", "pinterest", "planetscale", "postman",
+    "sofi", "squarespace", "starburst", "temporaltechnologies", "togetherai", "toast",
+    "twilio", "vercel", "waymo", "webflow", "yugabyte",
+
+    "aerospike", "assemblyai", "bitmovin", "canonical", "honeycomb",
+    "neo4j", "singlestore", "sumologic", "tailscale", "vonage",
+
+    "bitgo", "blockchain", "consensys", "fireblocks", "gemini", "okx", "ripple", "xendit",
+    "careem",
+
+    "bitpanda", "celonis", "getyourguide", "gocardless", "monzo", "n26", "raisin",
+    "sumup", "traderepublic", "truelayer", "typeform", "wolt", "remote", "mattermost",
+    "aha", "ghost",
+
+    "chainguard", "fivetran", "marqeta", "lithic", "bandwidth", "buildkite",
+    "cortex", "labelbox", "octopusdeploy"
+  ],
+
+  "ashby": [
+    "openai", "ramp", "linear", "vanta", "notion",
+    "baseten", "cursor", "decagon", "elevenlabs", "harvey", "perplexity", "posthog",
+    "runway", "sierra", "suno", "watershed", "writer",
+    "modal", "reka", "sardine", "dune", "neon", "oyster", "railway",
+    "supabase", "replit", "weaviate", "prefect", "warp", "inngest", "knock",
+    "resend", "windmill", "twenty", "redis", "incident", "svix", "formance",
+    "cohere", "alchemy", "blockdaemon", "quicknode", "workos", "stytch",
+    "infisical", "anyscale", "pinecone", "depot"
+  ],
+
+  "lever": [
+    "voltus", "aircall", "contentsquare", "kavak", "ledger", "qonto", "spotify",
+    "swile", "blablacar", "gate", "nium"
+  ]
+}
