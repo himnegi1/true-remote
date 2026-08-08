@@ -4,12 +4,21 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"strings"
 )
 
 func logf(format string, args ...any) { log.Printf(format, args...) }
 
 func main() {
 	log.SetFlags(log.Ltime)
+
+	// --onboard "plain english" → LLM-generated skills + profile for config.json.
+	if len(os.Args) > 1 && os.Args[1] == "--onboard" {
+		if err := runOnboard(strings.Join(os.Args[2:], " ")); err != nil {
+			log.Fatalf("onboard: %v", err)
+		}
+		return
+	}
 
 	cfg, err := loadConfig("config.json")
 	if err != nil {
@@ -39,8 +48,13 @@ func main() {
 	raw := fetchAll(cfg, companies)
 	logf("total raw jobs across sources: %d", len(raw))
 
-	picked := selectJobs(cfg, raw, seen)
-	logf("selected %d fresh matching jobs", len(picked))
+	pool := selectJobs(cfg, raw, seen)
+	logf("candidate pool: %d jobs", len(pool))
+
+	// Final selection: LLM re-ranks against the profile if a key is set,
+	// otherwise the heuristic top picks are used.
+	picked := finalPicks(cfg, pool)
+	logf("final selection: %d jobs (llm=%v)", len(picked), llmEnabled())
 
 	if dry {
 		fmt.Println("----- DRY RUN: Telegram message preview -----")

@@ -124,28 +124,37 @@ type jobicyResp struct {
 }
 
 func fetchJobicy(cfg Config) ([]Job, error) {
-	b, err := httpGet("https://jobicy.com/api/v2/remote-jobs?count=50&tag=golang")
-	if err != nil {
-		return nil, err
-	}
-	var r jobicyResp
-	if err := json.Unmarshal(b, &r); err != nil {
-		return nil, fmt.Errorf("decode: %w", err)
-	}
 	var out []Job
-	for _, j := range r.Jobs {
-		job := Job{
-			Source:     "Jobicy",
-			ID:         "jobicy-" + j.ID.String(),
-			Title:      j.JobTitle,
-			Company:    j.CompanyName,
-			Location:   j.JobGeo, // "Anywhere" / "USA" / "Europe, Germany, …"
-			URL:        j.URL,
-			JobType:    normalizeJobType(strings.Join(j.JobType, " ")),
-			RemoteHint: true, // Jobicy is remote-only
-			Posted:     parseTime(j.PubDate),
+	seen := map[string]bool{}
+	for _, skill := range cfg.Skills {
+		u := "https://jobicy.com/api/v2/remote-jobs?count=50&tag=" + url.QueryEscape(skill)
+		b, err := httpGet(u)
+		if err != nil {
+			return out, err
 		}
-		out = append(out, job.withDescription(stripHTML(j.JobDescription)))
+		var r jobicyResp
+		if err := json.Unmarshal(b, &r); err != nil {
+			return out, fmt.Errorf("decode: %w", err)
+		}
+		for _, j := range r.Jobs {
+			id := j.ID.String()
+			if seen[id] {
+				continue
+			}
+			seen[id] = true
+			job := Job{
+				Source:     "Jobicy",
+				ID:         "jobicy-" + id,
+				Title:      j.JobTitle,
+				Company:    j.CompanyName,
+				Location:   j.JobGeo, // "Anywhere" / "USA" / "Europe, Germany, …"
+				URL:        j.URL,
+				JobType:    normalizeJobType(strings.Join(j.JobType, " ")),
+				RemoteHint: true, // Jobicy is remote-only
+				Posted:     parseTime(j.PubDate),
+			}
+			out = append(out, job.withDescription(stripHTML(j.JobDescription)))
+		}
 	}
 	return out, nil
 }

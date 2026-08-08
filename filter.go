@@ -8,16 +8,50 @@ import (
 	"unicode"
 )
 
-// Skill patterns. Bare "go" is allowed only in titles/tags (high signal);
-// free-text (descriptions, hidden \x00desc tags) requires "golang" to avoid
-// matching the English word "go".
-var (
-	reGoStrict = regexp.MustCompile(`(?i)\bgolang\b`)
-	reGoLoose  = regexp.MustCompile(`(?i)\bgolang\b|\bgo\b`)
-	reCPP      = regexp.MustCompile(`(?i)c\+\+|\bcpp\b`)
-	// Seniority signal — the user has 12+ years, so senior+ roles rank higher.
-	reSenior = regexp.MustCompile(`(?i)\b(senior|sr\.?|staff|principal|lead|architect|distinguished)\b`)
-)
+// Seniority signal — senior+ roles rank higher (configurable via profile).
+var reSenior = regexp.MustCompile(`(?i)\b(senior|sr\.?|staff|principal|lead|architect|distinguished)\b`)
+
+var reAlnum = regexp.MustCompile(`^[a-z0-9]+$`)
+
+// skillMatchers are compiled from the user's configured skills, so the tool is
+// not tied to Go/C++ — it works for any skill set.
+type skillMatchers struct {
+	loose  *regexp.Regexp // all skills; used on titles/curated tags (high signal)
+	strict *regexp.Regexp // skills ≥3 chars; used on free-text descriptions to
+	// avoid short ambiguous tokens (e.g. "go" matching the English word)
+}
+
+// buildSkillMatchers turns []{"golang","c++",…} into word-boundary regexes.
+func buildSkillMatchers(skills []string) skillMatchers {
+	var loosePats, strictPats []string
+	for _, s := range skills {
+		s = strings.ToLower(strings.TrimSpace(s))
+		if s == "" {
+			continue
+		}
+		var pat string
+		if reAlnum.MatchString(s) {
+			pat = `\b` + regexp.QuoteMeta(s) + `\b` // whole-word for plain terms
+		} else {
+			pat = regexp.QuoteMeta(s) // symbols (c++, .net, c#) — plain escaped
+		}
+		loosePats = append(loosePats, pat)
+		if len(s) >= 3 {
+			strictPats = append(strictPats, pat)
+		}
+	}
+	if len(strictPats) == 0 {
+		strictPats = loosePats
+	}
+	if len(loosePats) == 0 { // no skills configured → match nothing
+		loosePats = []string{`$^`}
+		strictPats = []string{`$^`}
+	}
+	return skillMatchers{
+		loose:  regexp.MustCompile(`(?i)` + strings.Join(loosePats, "|")),
+		strict: regexp.MustCompile(`(?i)` + strings.Join(strictPats, "|")),
+	}
+}
 
 // trustedTagSources have curated, low-noise tags we can match against.
 // RemoteOK/ATS tags are noisy or generic, so we ignore them for matching.
@@ -40,12 +74,12 @@ func isCoreDevTitle(title string) bool {
 	return containsAnySub(t, coreDevQualifiers...)
 }
 
-// skillRelevance scores how central Go/C++ is to a role:
+// skillRelevance scores how central a configured skill is to a role:
 //
 //	4 = the skill is in the TITLE (or a curated tag) — strongly relevant
 //	2 = the skill is only in the description, but the title is a core dev role
 //	0 = no real match
-func skillRelevance(j Job) int {
+func skillRelevance(j Job, m skillMatchers) int {
 	titleBlob := strings.ToLower(j.Title)
 	var descBlob string
 	for _, t := range j.Tags {
@@ -57,10 +91,10 @@ func skillRelevance(j Job) int {
 			titleBlob += " " + strings.ToLower(t)
 		}
 	}
-	if reGoLoose.MatchString(titleBlob) || reCPP.MatchString(titleBlob) {
+	if m.loose.MatchString(titleBlob) {
 		return 4
 	}
-	if (reGoStrict.MatchString(descBlob) || reCPP.MatchString(descBlob)) && isCoreDevTitle(j.Title) {
+	if m.strict.MatchString(descBlob) && isCoreDevTitle(j.Title) {
 		return 2
 	}
 	return 0
@@ -153,6 +187,7 @@ func excludedCompany(cfg Config, company string) bool {
 // returns at most cfg.MaxJobs fresh jobs (best first).
 func selectJobs(cfg Config, raw []Job, seen map[string]bool) []Job {
 	dedupe := map[string]bool{}
+	matchers := buildSkillMatchers(cfg.Skills)
 	var candidates []Job
 	var nRemote, nSkill, nExcl, nRegionDropped int
 
@@ -164,7 +199,7 @@ func selectJobs(cfg Config, raw []Job, seen map[string]bool) []Job {
 			continue
 		}
 		nRemote++
-		rel := skillRelevance(j)
+		rel := skillRelevance(j, matchers)
 		if rel == 0 {
 			continue
 		}
@@ -226,12 +261,17 @@ func selectJobs(cfg Config, raw []Job, seen map[string]bool) []Job {
 		titleSeen[titleKey] = true
 		count[key]++
 		picked = append(picked, j)
-		if len(picked) == cfg.MaxJobs {
+		if len(picked) == candidatePoolSize {
 			break
 		}
 	}
 	return picked
 }
+
+// candidatePoolSize is how many heuristically-ranked candidates we keep before
+// the final selection. When LLM ranking is on it re-ranks this pool; otherwise
+// the top cfg.MaxJobs are taken directly.
+const candidatePoolSize = 30
 
 func visibleTags(tags []string) []string {
 	var out []string

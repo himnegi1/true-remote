@@ -67,6 +67,9 @@ func buildMessage(jobs []Job) string {
 		if len(j.Tags) > 0 {
 			fmt.Fprintf(&b, "🧩 %s\n", esc(strings.Join(j.Tags, ", ")))
 		}
+		if j.Reason != "" {
+			fmt.Fprintf(&b, "✅ %s\n", esc(j.Reason))
+		}
 		fmt.Fprintf(&b, "🔗 <a href=\"%s\">Apply</a> · via %s\n\n", esc(j.URL), esc(j.Source))
 	}
 

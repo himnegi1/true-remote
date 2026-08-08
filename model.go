@@ -16,6 +16,7 @@ type Job struct {
 	URL      string    // apply/detail link
 	Salary   string    // formatted salary if the source provides one, else ""
 	JobType  string    // Full-time / Part-time / Contract / Freelance (best effort)
+	Reason   string    // LLM one-line "why it fits" (only when LLM ranking is on)
 	Tags     []string  // skill/tech tags
 	Posted   time.Time // publication time (best effort)
 
@@ -31,6 +32,7 @@ type Config struct {
 	MaxJobs                  int      `json:"maxJobs"`
 	MaxPerCompany            int      `json:"maxPerCompany"`
 	AllowCountryLockedRemote bool     `json:"allowCountryLockedRemote"`
+	Profile                  string   `json:"profile"` // free-text candidate description for LLM ranking
 	Skills                   []string `json:"skills"`
 	ReachableRegions         []string `json:"reachableRegions"`
 	ExcludeTitle             []string `json:"excludeTitle"`

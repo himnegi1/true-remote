@@ -1,6 +1,8 @@
 # TrueRemote 🧭
 
-A tiny, dependency-free **Go** service that finds up to **5 fresh, *genuinely* remote Go / C++ jobs every day** — roles open to anywhere, not fake "US-only remote" — and pushes them to your **Telegram** (company · pay · stack · job type · apply link). Runs on **GitHub Actions for free**, no server to maintain.
+A tiny, dependency-free **Go** service that finds up to **5 fresh, *genuinely* remote jobs for your stack every day** — roles open to anywhere, not fake "US-only remote" — and pushes them to your **Telegram** (company · pay · stack · job type · apply link). Runs on **GitHub Actions for free**, no server to maintain.
+
+Configurable for **any skills** (Go/C++ out of the box; set `skills` to `["rust","python"]`, `["java","kotlin"]`, whatever). Optional **free AI ranking** tailors picks to a plain-English profile.
 
 Built to surface roles that pay in **global USD/EUR (not location-normalized)** and to ignore staffing/gig marketplaces. It drops roles geo-locked to a country you can't work from and keeps only what's actually reachable.
 
@@ -90,12 +92,30 @@ Everything is plain JSON — no rebuild needed, just edit and push.
 - `maxJobs` — how many roles per day (default 5).
 - `maxPerCompany` — diversity cap (default 2).
 - `allowCountryLockedRemote` — **the volume knob.** `false` (default) = only roles reachable from India (worldwide/India/APAC/Singapore/Dubai). `true` = also include country-locked remote (US-remote, EU-remote) for more volume.
-- `skills` — currently `golang`, `c++`.
+- `skills` — **any** stack, not just Go/C++ (e.g. `["rust","python"]`). Drives matching across every source.
+- `profile` — free-text description of the candidate; used by the optional LLM ranker (below).
 - `reachableRegions` — location strings that count as reachable from India (worldwide/India/APAC/Singapore/Dubai…). **A role is dropped only if it names a specific non-reachable country** (e.g. "Remote, USA"). A plain "Remote" with no country named is kept — nothing says you can't apply.
 - `excludeTitle` — kills non-core-dev titles (sales, GTM, recruiter, firmware/embedded/kernel/HFT, gaming…).
 - `excludeCompany` — staffing/gig platforms + HFT firms to ignore.
 
 **Relevance:** Go/C++ in the **title** (or a curated tag) = strongly relevant and ranks top. Go/C++ only in the **description** is kept only if the title is a real software-dev role (Software/Backend/Platform/Distributed Engineer), so ops/perf/DBA roles that just mention the language are dropped.
+
+## AI ranking & onboarding (optional, free)
+
+TrueRemote runs fully on the deterministic keyword pipeline with **no LLM**. Add a **free** LLM key to upgrade two things:
+
+1. **Smarter ranking** — instead of keyword scoring, the LLM re-ranks the candidate pool against your `profile` and writes a one-line *why it fits* on each pick.
+2. **Onboarding** — describe your ideal role in plain English and the LLM generates your `skills` + `profile`:
+   ```bash
+   go run . --onboard "senior rust + go backend engineer, fully remote, USD pay, into fintech, no gaming"
+   ```
+
+**Setup (free):** get a key from [Groq](https://console.groq.com) (free tier, runs Llama 3.3 70B, no card), then set env vars / GitHub secrets:
+- `LLM_API_KEY` — your key (this alone enables everything)
+- `LLM_BASE_URL` — optional, default `https://api.groq.com/openai/v1` (swap for Gemini/OpenRouter/OpenAI)
+- `LLM_MODEL` — optional, default `llama-3.3-70b-versatile`
+
+No key = no cost, still works. The LLM only ever *upgrades* results, and a failed LLM call silently falls back to the keyword ranking.
 
 **`companies.json`** — the career portals pulled directly. To add a company, find its board slug in its careers URL and drop the slug in the right list:
 - Greenhouse → `boards.greenhouse.io/<slug>`

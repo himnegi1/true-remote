@@ -4,7 +4,12 @@ on:
   schedule:
     # 03:30 UTC = 09:00 IST every day. Adjust if you like.
     - cron: "30 3 * * *"
-  workflow_dispatch: {} # lets you trigger a run manually from the Actions tab
+  workflow_dispatch: # lets you trigger a run manually from the Actions tab
+    inputs:
+      dry_run:
+        description: "Preview only: print the digest to the log, do NOT send Telegram or save state"
+        type: boolean
+        default: false
 
 permissions:
   contents: write # needed to commit the updated data/seen.json
@@ -27,9 +32,21 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: go run .
+          # Optional: set LLM_API_KEY (free Groq key) to enable AI ranking.
+          # LLM_BASE_URL / LLM_MODEL are optional overrides (default Groq/Llama).
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL }}
+        run: |
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            echo "DRY RUN — preview only, no Telegram send"
+            go run . --dry-run
+          else
+            go run .
+          fi
 
       - name: Persist seen jobs
+        if: ${{ github.event.inputs.dry_run != 'true' }}
         run: |
           git config user.name "job-scout-bot"
           git config user.email "job-scout-bot@users.noreply.github.com"
