@@ -7,12 +7,12 @@
 
     "adyen", "affirm", "airbnb", "airtable", "anthropic", "asana", "brex", "chime",
     "circleci", "clickhouse", "cockroachlabs", "coreweave", "discord", "faire", "fastly",
-    "figma", "fireworksai", "gusto", "hellofresh", "imply", "instacart", "lyft", "netlify",
+    "figma", "gusto", "hellofresh", "imply", "instacart", "lyft", "netlify",
     "newrelic", "okta", "pagerduty", "pinterest", "planetscale", "postman",
     "sofi", "squarespace", "starburst", "temporaltechnologies", "togetherai", "toast",
     "twilio", "vercel", "waymo", "webflow", "yugabyte",
 
-    "aerospike", "assemblyai", "bitmovin", "canonical", "honeycomb",
+    "assemblyai", "bitmovin", "canonical", "honeycomb",
     "neo4j", "singlestore", "sumologic", "tailscale", "vonage",
 
     "bitgo", "blockchain", "consensys", "fireblocks", "gemini", "okx", "ripple", "xendit",

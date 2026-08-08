@@ -11,8 +11,8 @@ import (
 )
 
 // sendTelegram posts an HTML-formatted digest to the configured chat.
-func sendTelegram(token, chatID string, jobs []Job) error {
-	text := buildMessage(jobs)
+func sendTelegram(token, chatID string, jobs []Job, skills []string) error {
+	text := buildMessage(jobs, skills)
 
 	payload := map[string]any{
 		"chat_id":                  chatID,
@@ -36,19 +36,23 @@ func sendTelegram(token, chatID string, jobs []Job) error {
 	return nil
 }
 
-func buildMessage(jobs []Job) string {
+func buildMessage(jobs []Job, skills []string) string {
 	date := time.Now().Format("Mon, 02 Jan 2006")
+	skillLabel := strings.Join(skills, " / ")
+	if skillLabel == "" {
+		skillLabel = "matching"
+	}
 	var b strings.Builder
 
 	if len(jobs) == 0 {
 		fmt.Fprintf(&b, "🧭 <b>TrueRemote</b> — %s\n\n", date)
-		b.WriteString("No new Go / C++ remote roles matched your filters today. ")
+		fmt.Fprintf(&b, "No new %s remote roles matched your filters today. ", skillLabel)
 		b.WriteString("The scan ran fine — check again tomorrow. 👋")
 		return b.String()
 	}
 
 	fmt.Fprintf(&b, "🧭 <b>TrueRemote</b> — %s\n", date)
-	fmt.Fprintf(&b, "Top %d remote Go / C++ roles — reachable from India (worldwide · India · APAC · any timezone)\n\n", len(jobs))
+	fmt.Fprintf(&b, "Top %d remote %s roles — reachable, any timezone\n\n", len(jobs), skillLabel)
 
 	for i, j := range jobs {
 		fmt.Fprintf(&b, "<b>%d. %s</b>\n", i+1, esc(j.Title))

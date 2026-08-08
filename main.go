@@ -58,12 +58,12 @@ func main() {
 
 	if dry {
 		fmt.Println("----- DRY RUN: Telegram message preview -----")
-		fmt.Println(buildMessage(picked))
+		fmt.Println(buildMessage(picked, cfg.Skills))
 		fmt.Println("---------------------------------------------")
 		return
 	}
 
-	if err := sendTelegram(token, chatID, picked); err != nil {
+	if err := sendTelegram(token, chatID, picked, cfg.Skills); err != nil {
 		log.Fatalf("telegram send: %v", err)
 	}
 	logf("telegram message sent")
