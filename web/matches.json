@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-08T19:06:23Z",
+  "generated": "2026-08-08T19:18:36Z",
   "skills": [
     "golang",
     "c++"
   ],
-  "count": 5,
+  "count": 3,
   "jobs": [
     {
       "title": "C, Golang Software Engineer working on dqlite, a Raft extension for SQLite",
@@ -14,7 +14,7 @@
       "salary": "",
       "source": "Jobicy",
       "url": "https://jobicy.com/jobs/150128-c-golang-software-engineer-working-on-dqlite-a-raft-extension-for-sqlite",
-      "reason": "",
+      "reason": "Golang and distributed systems",
       "tags": null,
       "posted": "2026-08-03"
     },
@@ -26,33 +26,9 @@
       "salary": "",
       "source": "Jobicy",
       "url": "https://jobicy.com/jobs/149985-engineering-manager-public-cloud-python-golang",
-      "reason": "",
+      "reason": "Golang and cloud experience",
       "tags": null,
       "posted": "2026-08-01"
-    },
-    {
-      "title": "Principal Software Engineer - Data Lakes",
-      "company": "Fivetran",
-      "location": "EMEA,  Germany",
-      "jobType": "Full-time",
-      "salary": "",
-      "source": "Jobicy",
-      "url": "https://jobicy.com/jobs/146976-principal-software-engineer-data-lakes",
-      "reason": "",
-      "tags": null,
-      "posted": "2026-07-18"
-    },
-    {
-      "title": "Core Software Engineer (C++) - Remote",
-      "company": "ClickHouse",
-      "location": "India (remote)",
-      "jobType": "",
-      "salary": "",
-      "source": "Greenhouse",
-      "url": "https://job-boards.greenhouse.io/clickhouse/jobs/5767816004",
-      "reason": "",
-      "tags": null,
-      "posted": "2026-03-27"
     },
     {
       "title": "Software Backend Engineer",
@@ -62,7 +38,7 @@
       "salary": "",
       "source": "Ashby",
       "url": "https://jobs.ashbyhq.com/sardine/122f0715-0d0a-42b3-94f5-0a59d4169d69/application",
-      "reason": "",
+      "reason": "Backend engineer role",
       "tags": [
         "Engineering"
       ],
