@@ -77,6 +77,11 @@ func main() {
 	picked := finalPicks(cfg, pool)
 	logf("final selection: %d jobs (llm=%v)", len(picked), llmEnabled())
 
+	// Always refresh the dashboard feed with the latest picks.
+	if err := writeMatches("web/matches.json", picked, cfg.Skills); err != nil {
+		logf("write matches.json: %v", err)
+	}
+
 	if dry {
 		fmt.Println("----- DRY RUN: Telegram message preview -----")
 		fmt.Println(buildMessage(picked, cfg.Skills))

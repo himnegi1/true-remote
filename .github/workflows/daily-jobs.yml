@@ -42,22 +42,24 @@ jobs:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
         run: |
-          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
-            echo "DRY RUN — preview only, no Telegram send"
+          # No Telegram bot yet -> run in dashboard mode (--dry-run): refresh
+          # web/matches.json without sending. Once TELEGRAM_BOT_TOKEN is set,
+          # it switches to sending the digest too.
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ] || [ -z "$TELEGRAM_BOT_TOKEN" ]; then
+            echo "Dashboard mode — refreshing matches.json, no Telegram send"
             go run . --dry-run
           else
             go run .
           fi
 
-      - name: Persist seen jobs
-        if: ${{ github.event.inputs.dry_run != 'true' }}
+      - name: Publish dashboard feed
         run: |
-          git config user.name "job-scout-bot"
-          git config user.email "job-scout-bot@users.noreply.github.com"
-          git add data/seen.json
+          git config user.name "trueremote-bot"
+          git config user.email "trueremote-bot@users.noreply.github.com"
+          git add web/matches.json data/seen.json
           if git diff --staged --quiet; then
-            echo "No new jobs to record."
+            echo "No changes to publish."
           else
-            git commit -m "chore: update seen jobs [skip ci]"
+            git commit -m "chore: refresh matches [skip ci]"
             git push
           fi

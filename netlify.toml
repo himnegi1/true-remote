@@ -1,0 +1,5 @@
+# Netlify serves the static dashboard from web/.
+# Connect this repo in Netlify (Add new site -> Import from GitHub -> true-remote).
+[build]
+  publish = "web"
+  command = ""
