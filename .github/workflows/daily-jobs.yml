@@ -60,6 +60,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to publish."
           else
-            git commit -m "chore: refresh matches [skip ci]"
+            git commit -m "chore: refresh matches"
             git push
           fi
