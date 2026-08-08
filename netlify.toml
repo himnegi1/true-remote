@@ -3,3 +3,10 @@
 [build]
   publish = "web"
   command = ""
+
+# Keep the feed fresh — don't let the CDN pin an old matches.json.
+[[headers]]
+  for = "/matches.json"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+    Netlify-CDN-Cache-Control = "public, max-age=60, must-revalidate"
