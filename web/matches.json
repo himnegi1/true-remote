@@ -1,11 +1,23 @@
 {
-  "generated": "2026-08-09T04:43:57Z",
+  "generated": "2026-08-10T05:03:21Z",
   "skills": [
     "golang",
     "c++"
   ],
   "count": 3,
   "jobs": [
+    {
+      "title": "Go (Golang) Software Engineer, Developer Tooling and Containers",
+      "company": "Canonical Ltd.",
+      "location": "APAC",
+      "jobType": "Full-time",
+      "salary": "",
+      "source": "Jobicy",
+      "url": "https://jobicy.com/jobs/150365-go-golang-software-engineer-developer-tooling-and-containers",
+      "reason": "Golang core skill match",
+      "tags": null,
+      "posted": "2026-08-09"
+    },
     {
       "title": "C, Golang Software Engineer working on dqlite, a Raft extension for SQLite",
       "company": "Canonical Ltd.",
@@ -19,18 +31,6 @@
       "posted": "2026-08-03"
     },
     {
-      "title": "Engineering Manager - Public Cloud, Python, Golang",
-      "company": "Canonical Ltd.",
-      "location": "EMEA,  LATAM,  Canada,  USA",
-      "jobType": "Full-time",
-      "salary": "",
-      "source": "Jobicy",
-      "url": "https://jobicy.com/jobs/149985-engineering-manager-public-cloud-python-golang",
-      "reason": "Golang and cloud management",
-      "tags": null,
-      "posted": "2026-08-01"
-    },
-    {
       "title": "Software Backend Engineer",
       "company": "Sardine",
       "location": "India",
@@ -38,7 +38,7 @@
       "salary": "",
       "source": "Ashby",
       "url": "https://jobs.ashbyhq.com/sardine/122f0715-0d0a-42b3-94f5-0a59d4169d69/application",
-      "reason": "Backend and remote India",
+      "reason": "Backend role in India",
       "tags": [
         "Engineering"
       ],
