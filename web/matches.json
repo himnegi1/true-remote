@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-14T05:13:01Z",
+  "generated": "2026-08-15T04:01:41Z",
   "skills": [
     "golang",
     "c++"
@@ -14,7 +14,7 @@
       "salary": "",
       "source": "Jobicy",
       "url": "https://jobicy.com/jobs/150365-go-golang-software-engineer-developer-tooling-and-containers",
-      "reason": "Golang and backend focus",
+      "reason": "Golang core skill match",
       "tags": null,
       "posted": "2026-08-09"
     },
@@ -31,18 +31,16 @@
       "posted": "2026-08-03"
     },
     {
-      "title": "Software Backend Engineer",
-      "company": "Sardine",
-      "location": "India",
+      "title": "Principal Software Engineer - Data Lakes",
+      "company": "Fivetran",
+      "location": "EMEA,  Germany",
       "jobType": "Full-time",
       "salary": "",
-      "source": "Ashby",
-      "url": "https://jobs.ashbyhq.com/sardine/122f0715-0d0a-42b3-94f5-0a59d4169d69/application",
-      "reason": "Backend and remote India",
-      "tags": [
-        "Engineering"
-      ],
-      "posted": "2026-05-11"
+      "source": "Jobicy",
+      "url": "https://jobicy.com/jobs/146976-principal-software-engineer-data-lakes",
+      "reason": "Data lakes and cloud relevance",
+      "tags": null,
+      "posted": "2026-07-18"
     }
   ]
 }
