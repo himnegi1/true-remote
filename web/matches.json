@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-17T04:10:16Z",
+  "generated": "2026-08-18T04:04:50Z",
   "skills": [
     "golang",
     "c++"
   ],
-  "count": 2,
+  "count": 4,
   "jobs": [
     {
       "title": "Go (Golang) Software Engineer, Developer Tooling and Containers",
@@ -14,7 +14,7 @@
       "salary": "",
       "source": "Jobicy",
       "url": "https://jobicy.com/jobs/150365-go-golang-software-engineer-developer-tooling-and-containers",
-      "reason": "Golang and backend focus",
+      "reason": "",
       "tags": null,
       "posted": "2026-08-09"
     },
@@ -26,9 +26,33 @@
       "salary": "",
       "source": "Jobicy",
       "url": "https://jobicy.com/jobs/150128-c-golang-software-engineer-working-on-dqlite-a-raft-extension-for-sqlite",
-      "reason": "Golang and distributed systems",
+      "reason": "",
       "tags": null,
       "posted": "2026-08-03"
+    },
+    {
+      "title": "Principal Software Engineer - Data Lakes",
+      "company": "Fivetran",
+      "location": "EMEA,  Germany",
+      "jobType": "Full-time",
+      "salary": "",
+      "source": "Jobicy",
+      "url": "https://jobicy.com/jobs/146976-principal-software-engineer-data-lakes",
+      "reason": "",
+      "tags": null,
+      "posted": "2026-07-18"
+    },
+    {
+      "title": "Core Software Engineer (C++) - Remote",
+      "company": "ClickHouse",
+      "location": "India (remote)",
+      "jobType": "",
+      "salary": "",
+      "source": "Greenhouse",
+      "url": "https://job-boards.greenhouse.io/clickhouse/jobs/5767816004",
+      "reason": "",
+      "tags": null,
+      "posted": "2026-03-27"
     }
   ]
 }
