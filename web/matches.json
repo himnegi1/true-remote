@@ -1,11 +1,23 @@
 {
-  "generated": "2026-08-19T04:05:39Z",
+  "generated": "2026-08-20T04:06:13Z",
   "skills": [
     "golang",
     "c++"
   ],
-  "count": 3,
+  "count": 4,
   "jobs": [
+    {
+      "title": "Principal Software Engineer - Data Lakes",
+      "company": "Fivetran",
+      "location": "EMEA,  Germany",
+      "jobType": "Full-time",
+      "salary": "",
+      "source": "Jobicy",
+      "url": "https://jobicy.com/jobs/146976-principal-software-engineer-data-lakes",
+      "reason": "",
+      "tags": null,
+      "posted": "2026-08-19"
+    },
     {
       "title": "Go (Golang) Software Engineer, Developer Tooling and Containers",
       "company": "Canonical Ltd.",
