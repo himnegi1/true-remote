@@ -1,34 +1,34 @@
 {
-  "generated": "2026-09-01T08:49:02Z",
+  "generated": "2026-09-02T08:01:54Z",
   "skills": [
     "golang",
     "c++"
   ],
-  "count": 4,
+  "count": 3,
   "jobs": [
     {
-      "title": "Linux Platform Integration - Ubuntu Systems Senior Engineer",
+      "title": "Golang Engineering Manager, Commercial Systems",
       "company": "Canonical",
-      "location": "Anywhere",
+      "location": "EMEA",
       "jobType": "Full-time",
       "salary": "",
       "source": "Jobicy",
-      "url": "https://jobicy.com/jobs/149574-linux-platform-integration-ubuntu-systems-senior-engineer",
+      "url": "https://jobicy.com/jobs/149984-golang-engineering-manager-commercial-systems",
       "reason": "",
       "tags": null,
-      "posted": "2026-08-22"
+      "posted": "2026-09-02"
     },
     {
-      "title": "Golang Engineer",
+      "title": "Engineering Manager - Public Cloud, Python, Golang",
       "company": "Canonical",
-      "location": "Anywhere",
+      "location": "EMEA,  LATAM,  Canada,  USA",
       "jobType": "Full-time",
       "salary": "",
       "source": "Jobicy",
-      "url": "https://jobicy.com/jobs/149538-golang-engineer-2",
+      "url": "https://jobicy.com/jobs/149985-engineering-manager-public-cloud-python-golang",
       "reason": "",
       "tags": null,
-      "posted": "2026-08-22"
+      "posted": "2026-09-02"
     },
     {
       "title": "Principal Software Engineer - Data Lakes",
@@ -41,18 +41,6 @@
       "reason": "",
       "tags": null,
       "posted": "2026-08-19"
-    },
-    {
-      "title": "Core Software Engineer (C++) - Remote",
-      "company": "ClickHouse",
-      "location": "India (remote)",
-      "jobType": "",
-      "salary": "",
-      "source": "Greenhouse",
-      "url": "https://job-boards.greenhouse.io/clickhouse/jobs/5767816004",
-      "reason": "",
-      "tags": null,
-      "posted": "2026-03-27"
     }
   ]
 }
