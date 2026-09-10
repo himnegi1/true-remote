@@ -1,11 +1,23 @@
 {
-  "generated": "2026-09-09T08:17:48Z",
+  "generated": "2026-09-10T08:17:16Z",
   "skills": [
     "golang",
     "c++"
   ],
   "count": 3,
   "jobs": [
+    {
+      "title": "Go (Golang) Software Engineer, Developer Tooling and Containers",
+      "company": "Canonical",
+      "location": "APAC",
+      "jobType": "Full-time",
+      "salary": "",
+      "source": "Jobicy",
+      "url": "https://jobicy.com/jobs/150365-go-golang-software-engineer-developer-tooling-and-containers",
+      "reason": "",
+      "tags": null,
+      "posted": "2026-09-10"
+    },
     {
       "title": "C, Golang Software Engineer working on dqlite, a Raft extension for SQLite",
       "company": "Canonical",
@@ -19,28 +31,16 @@
       "posted": "2026-09-04"
     },
     {
-      "title": "Golang Engineering Manager, Commercial Systems",
-      "company": "Canonical",
-      "location": "EMEA",
-      "jobType": "Full-time",
+      "title": "Software Engineer GO",
+      "company": "Wakacje.pl",
+      "location": "",
+      "jobType": "",
       "salary": "",
-      "source": "Jobicy",
-      "url": "https://jobicy.com/jobs/149984-golang-engineering-manager-commercial-systems",
+      "source": "RemoteOK",
+      "url": "https://remoteOK.com/remote-jobs/remote-software-engineer-go-wakacje-pl-1135634",
       "reason": "",
       "tags": null,
-      "posted": "2026-09-02"
-    },
-    {
-      "title": "Principal Software Engineer - Data Lakes",
-      "company": "Fivetran",
-      "location": "EMEA,  Germany",
-      "jobType": "Full-time",
-      "salary": "",
-      "source": "Jobicy",
-      "url": "https://jobicy.com/jobs/146976-principal-software-engineer-data-lakes",
-      "reason": "",
-      "tags": null,
-      "posted": "2026-08-19"
+      "posted": "2026-07-29"
     }
   ]
 }
