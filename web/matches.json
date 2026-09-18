@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-17T08:48:53Z",
+  "generated": "2026-09-18T08:24:06Z",
   "skills": [
     "golang",
     "c++"
   ],
-  "count": 3,
+  "count": 4,
   "jobs": [
     {
       "title": "Go (Golang) Software Engineer, Developer Tooling and Containers",
@@ -29,6 +29,18 @@
       "reason": "",
       "tags": null,
       "posted": "2026-09-04"
+    },
+    {
+      "title": "Golang Kubernetes Engineer",
+      "company": "Arango",
+      "location": "",
+      "jobType": "",
+      "salary": "",
+      "source": "RemoteOK",
+      "url": "https://remoteOK.com/remote-jobs/remote-golang-kubernetes-engineer-arango-1137400",
+      "reason": "",
+      "tags": null,
+      "posted": "2026-09-16"
     },
     {
       "title": "Software Engineer GO",
