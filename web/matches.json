@@ -1,11 +1,35 @@
 {
-  "generated": "2026-09-20T08:44:05Z",
+  "generated": "2026-09-21T09:10:43Z",
   "skills": [
     "golang",
     "c++"
   ],
   "count": 5,
   "jobs": [
+    {
+      "title": "C++/Rust Graphics and Windowing System Software Engineer - Mir",
+      "company": "Canonical",
+      "location": "APAC,  EMEA",
+      "jobType": "Full-time",
+      "salary": "",
+      "source": "Jobicy",
+      "url": "https://jobicy.com/jobs/151197-c-rust-graphics-and-windowing-system-software-engineer-mir",
+      "reason": "",
+      "tags": null,
+      "posted": "2026-09-21"
+    },
+    {
+      "title": "Staff Software Engineer",
+      "company": "saas.group",
+      "location": "EMEA",
+      "jobType": "Full-time",
+      "salary": "",
+      "source": "Jobicy",
+      "url": "https://jobicy.com/jobs/153697-staff-software-engineer-6",
+      "reason": "",
+      "tags": null,
+      "posted": "2026-09-20"
+    },
     {
       "title": "Principal Software Engineer - Data Lakes",
       "company": "Fivetran",
@@ -31,18 +55,6 @@
       "posted": "2026-09-10"
     },
     {
-      "title": "C, Golang Software Engineer working on dqlite, a Raft extension for SQLite",
-      "company": "Canonical",
-      "location": "EMEA",
-      "jobType": "Full-time",
-      "salary": "",
-      "source": "Jobicy",
-      "url": "https://jobicy.com/jobs/150128-c-golang-software-engineer-working-on-dqlite-a-raft-extension-for-sqlite",
-      "reason": "",
-      "tags": null,
-      "posted": "2026-09-04"
-    },
-    {
       "title": "Golang Kubernetes Engineer",
       "company": "Arango",
       "location": "",
@@ -53,18 +65,6 @@
       "reason": "",
       "tags": null,
       "posted": "2026-09-16"
-    },
-    {
-      "title": "Software Engineer GO",
-      "company": "Wakacje.pl",
-      "location": "",
-      "jobType": "",
-      "salary": "",
-      "source": "RemoteOK",
-      "url": "https://remoteOK.com/remote-jobs/remote-software-engineer-go-wakacje-pl-1135634",
-      "reason": "",
-      "tags": null,
-      "posted": "2026-07-29"
     }
   ]
 }
