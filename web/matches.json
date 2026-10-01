@@ -1,58 +1,22 @@
 {
-  "generated": "2026-09-30T09:53:17Z",
+  "generated": "2026-10-01T10:20:35Z",
   "skills": [
     "golang",
     "c++"
   ],
-  "count": 5,
+  "count": 2,
   "jobs": [
     {
-      "title": "Linux Platform Integration - Ubuntu Systems Senior Engineer",
-      "company": "Canonical",
-      "location": "Anywhere",
+      "title": "Android Engineer (C++)",
+      "company": "Binance",
+      "location": "APAC",
       "jobType": "Full-time",
       "salary": "",
       "source": "Jobicy",
-      "url": "https://jobicy.com/jobs/149574-linux-platform-integration-ubuntu-systems-senior-engineer",
+      "url": "https://jobicy.com/jobs/154324-android-engineer-c",
       "reason": "",
       "tags": null,
-      "posted": "2026-09-23"
-    },
-    {
-      "title": "Golang Engineer",
-      "company": "Canonical",
-      "location": "Anywhere",
-      "jobType": "Full-time",
-      "salary": "",
-      "source": "Jobicy",
-      "url": "https://jobicy.com/jobs/149538-golang-engineer-2",
-      "reason": "",
-      "tags": null,
-      "posted": "2026-09-23"
-    },
-    {
-      "title": "Staff Software Engineer",
-      "company": "saas.group",
-      "location": "EMEA",
-      "jobType": "Full-time",
-      "salary": "",
-      "source": "Jobicy",
-      "url": "https://jobicy.com/jobs/153697-staff-software-engineer-6",
-      "reason": "",
-      "tags": null,
-      "posted": "2026-09-20"
-    },
-    {
-      "title": "Principal Software Engineer - Data Lakes",
-      "company": "Fivetran",
-      "location": "EMEA,  Germany",
-      "jobType": "Full-time",
-      "salary": "",
-      "source": "Jobicy",
-      "url": "https://jobicy.com/jobs/146976-principal-software-engineer-data-lakes",
-      "reason": "",
-      "tags": null,
-      "posted": "2026-09-20"
+      "posted": "2026-10-01"
     },
     {
       "title": "Golang Kubernetes Engineer",
