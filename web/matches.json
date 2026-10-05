@@ -1,11 +1,23 @@
 {
-  "generated": "2026-10-04T09:59:00Z",
+  "generated": "2026-10-05T10:43:12Z",
   "skills": [
     "golang",
     "c++"
   ],
   "count": 5,
   "jobs": [
+    {
+      "title": "C, Golang Software Engineer working on dqlite, a Raft extension for SQLite",
+      "company": "Canonical",
+      "location": "EMEA",
+      "jobType": "Full-time",
+      "salary": "",
+      "source": "Jobicy",
+      "url": "https://jobicy.com/jobs/150128-c-golang-software-engineer-working-on-dqlite-a-raft-extension-for-sqlite",
+      "reason": "",
+      "tags": null,
+      "posted": "2026-10-05"
+    },
     {
       "title": "Engineering Manager - Public Cloud, Python, Golang",
       "company": "Canonical",
@@ -14,18 +26,6 @@
       "salary": "",
       "source": "Jobicy",
       "url": "https://jobicy.com/jobs/149985-engineering-manager-public-cloud-python-golang",
-      "reason": "",
-      "tags": null,
-      "posted": "2026-10-03"
-    },
-    {
-      "title": "Golang Engineering Manager, Commercial Systems",
-      "company": "Canonical",
-      "location": "EMEA",
-      "jobType": "Full-time",
-      "salary": "",
-      "source": "Jobicy",
-      "url": "https://jobicy.com/jobs/149984-golang-engineering-manager-commercial-systems",
       "reason": "",
       "tags": null,
       "posted": "2026-10-03"
@@ -49,7 +49,7 @@
       "jobType": "Full-time",
       "salary": "",
       "source": "Arbeitnow",
-      "url": "https://www.arbeitnow.com/jobs/companies/duck-duck-go/remote-senior-web-compatibility-engineer-426717",
+      "url": "https://www.arbeitnow.ch/jobs/companies/duck-duck-go/remote-senior-web-compatibility-engineer-379161",
       "reason": "",
       "tags": [
         "Engineering"
