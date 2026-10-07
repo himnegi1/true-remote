@@ -1,11 +1,30 @@
 {
-  "generated": "2026-10-06T10:36:15Z",
+  "generated": "2026-10-07T10:27:59Z",
   "skills": [
     "golang",
     "c++"
   ],
-  "count": 5,
+  "count": 4,
   "jobs": [
+    {
+      "title": "Software Engineer / AI Code Trainer (Python, Web, Full Stack)",
+      "company": "CodeForAI",
+      "location": "USA, UK, India, Australia, Ireland, New Zealand, Philippines, Pakistan, Singapore, Mexico",
+      "jobType": "Contract",
+      "salary": "$45-$120/Hour",
+      "source": "Remotive",
+      "url": "https://remotive.com/remote-jobs/software-development/software-engineer-ai-code-trainer-python-web-full-stack-2091149",
+      "reason": "",
+      "tags": [
+        "api",
+        "backend",
+        "C",
+        "C#",
+        "C++",
+        "fullstack"
+      ],
+      "posted": "2026-10-05"
+    },
     {
       "title": "C, Golang Software Engineer working on dqlite, a Raft extension for SQLite",
       "company": "Canonical",
@@ -29,32 +48,6 @@
       "reason": "",
       "tags": null,
       "posted": "2026-10-03"
-    },
-    {
-      "title": "Android Engineer (C++)",
-      "company": "Binance",
-      "location": "APAC",
-      "jobType": "Full-time",
-      "salary": "",
-      "source": "Jobicy",
-      "url": "https://jobicy.com/jobs/154324-android-engineer-c",
-      "reason": "",
-      "tags": null,
-      "posted": "2026-10-01"
-    },
-    {
-      "title": "Senior Web Compatibility Engineer",
-      "company": "Duck Duck Go",
-      "location": "Remote",
-      "jobType": "Full-time",
-      "salary": "",
-      "source": "Arbeitnow",
-      "url": "https://www.arbeitnow.ch/jobs/companies/duck-duck-go/remote-senior-web-compatibility-engineer-379161",
-      "reason": "",
-      "tags": [
-        "Engineering"
-      ],
-      "posted": "2026-10-04"
     },
     {
       "title": "Golang Kubernetes Engineer",
