@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-11T10:11:59Z",
+  "generated": "2026-10-12T11:10:41Z",
   "skills": [
     "golang",
     "c++"
@@ -38,16 +38,16 @@
       "posted": "2026-10-11"
     },
     {
-      "title": "C, Golang Software Engineer working on dqlite, a Raft extension for SQLite",
+      "title": "Open Source Networking Software Engineer - ToR Switch / SmartNIC / DPU",
       "company": "Canonical",
-      "location": "EMEA",
+      "location": "APAC,  LATAM,  Canada,  China,  USA",
       "jobType": "Full-time",
       "salary": "",
       "source": "Jobicy",
-      "url": "https://jobicy.com/jobs/150128-c-golang-software-engineer-working-on-dqlite-a-raft-extension-for-sqlite",
+      "url": "https://jobicy.com/jobs/150360-open-source-networking-software-engineer-tor-switch-smartnic-dpu",
       "reason": "",
       "tags": null,
-      "posted": "2026-10-05"
+      "posted": "2026-10-11"
     },
     {
       "title": "Golang Kubernetes Engineer",
