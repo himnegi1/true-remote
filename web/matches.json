@@ -1,30 +1,11 @@
 {
-  "generated": "2026-10-14T08:54:21Z",
+  "generated": "2026-10-15T08:29:13Z",
   "skills": [
     "golang",
     "c++"
   ],
   "count": 4,
   "jobs": [
-    {
-      "title": "Software Engineer / AI Code Trainer (Python, Web, Full Stack)",
-      "company": "CodeForAI",
-      "location": "USA, UK, India, Australia, Ireland, New Zealand, Philippines, Pakistan, Singapore, Mexico",
-      "jobType": "Contract",
-      "salary": "$45-$120/Hour",
-      "source": "Remotive",
-      "url": "https://remotive.com/remote-jobs/software-development/software-engineer-ai-code-trainer-python-web-full-stack-2091149",
-      "reason": "",
-      "tags": [
-        "api",
-        "backend",
-        "C",
-        "C#",
-        "C++",
-        "fullstack"
-      ],
-      "posted": "2026-10-05"
-    },
     {
       "title": "Go (Golang) Software Engineer, Developer Tooling and Containers",
       "company": "Canonical",
@@ -36,6 +17,20 @@
       "reason": "",
       "tags": null,
       "posted": "2026-10-11"
+    },
+    {
+      "title": "Software Engineer - Backend",
+      "company": "Sardine",
+      "location": "India",
+      "jobType": "Full-time",
+      "salary": "",
+      "source": "Ashby",
+      "url": "https://jobs.ashbyhq.com/sardine/2524d206-42cb-4202-8d85-59e47c72d704/application",
+      "reason": "",
+      "tags": [
+        "Engineering"
+      ],
+      "posted": "2026-10-14"
     },
     {
       "title": "Open Source Networking Software Engineer - ToR Switch / SmartNIC / DPU",
