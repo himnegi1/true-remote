@@ -1,22 +1,22 @@
 {
-  "generated": "2026-10-17T07:56:55Z",
+  "generated": "2026-10-18T08:12:51Z",
   "skills": [
     "golang",
     "c++"
   ],
-  "count": 4,
+  "count": 3,
   "jobs": [
     {
-      "title": "Go (Golang) Software Engineer, Developer Tooling and Containers",
-      "company": "Canonical",
-      "location": "APAC",
-      "jobType": "Full-time",
-      "salary": "",
-      "source": "Jobicy",
-      "url": "https://jobicy.com/jobs/150365-go-golang-software-engineer-developer-tooling-and-containers",
+      "title": "Software Engineer AI Coding Tasks",
+      "company": "Askable",
+      "location": "",
+      "jobType": "",
+      "salary": "$10k–$10k",
+      "source": "RemoteOK",
+      "url": "https://remoteOK.com/remote-jobs/remote-software-engineer-ai-coding-tasks-askable-1137538",
       "reason": "",
       "tags": null,
-      "posted": "2026-10-11"
+      "posted": "2026-10-17"
     },
     {
       "title": "Software Engineer - Backend",
@@ -31,18 +31,6 @@
         "Engineering"
       ],
       "posted": "2026-10-14"
-    },
-    {
-      "title": "Open Source Networking Software Engineer - ToR Switch / SmartNIC / DPU",
-      "company": "Canonical",
-      "location": "APAC,  LATAM,  Canada,  China,  USA",
-      "jobType": "Full-time",
-      "salary": "",
-      "source": "Jobicy",
-      "url": "https://jobicy.com/jobs/150360-open-source-networking-software-engineer-tor-switch-smartnic-dpu",
-      "reason": "",
-      "tags": null,
-      "posted": "2026-10-11"
     },
     {
       "title": "Golang Kubernetes Engineer",
