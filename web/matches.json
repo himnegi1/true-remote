@@ -1,11 +1,30 @@
 {
-  "generated": "2026-10-18T08:12:51Z",
+  "generated": "2026-10-19T09:09:42Z",
   "skills": [
     "golang",
     "c++"
   ],
-  "count": 3,
+  "count": 4,
   "jobs": [
+    {
+      "title": "Software Engineer, AI Coding Tasks",
+      "company": "Askable",
+      "location": "Worldwide",
+      "jobType": "Contract",
+      "salary": "$1000 per task",
+      "source": "Remotive",
+      "url": "https://remotive.com/remote-jobs/software-development/software-engineer-ai-coding-tasks-2091158",
+      "reason": "",
+      "tags": [
+        "C++",
+        "docker",
+        "git",
+        "go",
+        "java",
+        "python"
+      ],
+      "posted": "2026-10-17"
+    },
     {
       "title": "Software Engineer AI Coding Tasks",
       "company": "Askable",
