@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-20T08:45:02Z",
+  "generated": "2026-10-21T08:45:52Z",
   "skills": [
     "golang",
     "c++"
   ],
-  "count": 4,
+  "count": 5,
   "jobs": [
     {
       "title": "Software Engineer, AI Coding Tasks",
@@ -24,6 +24,30 @@
         "python"
       ],
       "posted": "2026-10-17"
+    },
+    {
+      "title": "Staff Software Engineer",
+      "company": "saas.group",
+      "location": "EMEA",
+      "jobType": "Full-time",
+      "salary": "",
+      "source": "Jobicy",
+      "url": "https://jobicy.com/jobs/153697-staff-software-engineer-6",
+      "reason": "",
+      "tags": null,
+      "posted": "2026-10-21"
+    },
+    {
+      "title": "Principal Software Engineer - Data Lakes",
+      "company": "Fivetran",
+      "location": "EMEA,  Germany",
+      "jobType": "Full-time",
+      "salary": "",
+      "source": "Jobicy",
+      "url": "https://jobicy.com/jobs/146976-principal-software-engineer-data-lakes",
+      "reason": "",
+      "tags": null,
+      "posted": "2026-10-21"
     },
     {
       "title": "Software Engineer AI Coding Tasks",
@@ -50,18 +74,6 @@
         "Engineering"
       ],
       "posted": "2026-10-14"
-    },
-    {
-      "title": "Golang Kubernetes Engineer",
-      "company": "Arango",
-      "location": "",
-      "jobType": "",
-      "salary": "",
-      "source": "RemoteOK",
-      "url": "https://remoteOK.com/remote-jobs/remote-golang-kubernetes-engineer-arango-1137400",
-      "reason": "",
-      "tags": null,
-      "posted": "2026-09-16"
     }
   ]
 }
