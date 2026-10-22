@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T08:45:52Z",
+  "generated": "2026-10-22T08:47:54Z",
   "skills": [
     "golang",
     "c++"
@@ -24,6 +24,18 @@
         "python"
       ],
       "posted": "2026-10-17"
+    },
+    {
+      "title": "C++/Rust Graphics and Windowing System Software Engineer - Mir",
+      "company": "Canonical",
+      "location": "APAC,  EMEA",
+      "jobType": "Full-time",
+      "salary": "",
+      "source": "Jobicy",
+      "url": "https://jobicy.com/jobs/151197-c-rust-graphics-and-windowing-system-software-engineer-mir",
+      "reason": "",
+      "tags": null,
+      "posted": "2026-10-22"
     },
     {
       "title": "Staff Software Engineer",
@@ -60,20 +72,6 @@
       "reason": "",
       "tags": null,
       "posted": "2026-10-17"
-    },
-    {
-      "title": "Software Engineer - Backend",
-      "company": "Sardine",
-      "location": "India",
-      "jobType": "Full-time",
-      "salary": "",
-      "source": "Ashby",
-      "url": "https://jobs.ashbyhq.com/sardine/2524d206-42cb-4202-8d85-59e47c72d704/application",
-      "reason": "",
-      "tags": [
-        "Engineering"
-      ],
-      "posted": "2026-10-14"
     }
   ]
 }
