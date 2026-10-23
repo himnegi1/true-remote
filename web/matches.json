@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T08:47:54Z",
+  "generated": "2026-10-23T08:43:50Z",
   "skills": [
     "golang",
     "c++"
@@ -24,6 +24,18 @@
         "python"
       ],
       "posted": "2026-10-17"
+    },
+    {
+      "title": "Staff Software Engineer-ClickHouse Committer",
+      "company": "EDB",
+      "location": "EMEA",
+      "jobType": "Full-time",
+      "salary": "",
+      "source": "Jobicy",
+      "url": "https://jobicy.com/jobs/156381-staff-software-engineer-clickhouse-committer",
+      "reason": "",
+      "tags": null,
+      "posted": "2026-10-22"
     },
     {
       "title": "C++/Rust Graphics and Windowing System Software Engineer - Mir",
@@ -60,18 +72,6 @@
       "reason": "",
       "tags": null,
       "posted": "2026-10-21"
-    },
-    {
-      "title": "Software Engineer AI Coding Tasks",
-      "company": "Askable",
-      "location": "",
-      "jobType": "",
-      "salary": "$10k–$10k",
-      "source": "RemoteOK",
-      "url": "https://remoteOK.com/remote-jobs/remote-software-engineer-ai-coding-tasks-askable-1137538",
-      "reason": "",
-      "tags": null,
-      "posted": "2026-10-17"
     }
   ]
 }
