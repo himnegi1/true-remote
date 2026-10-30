@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-29T10:16:15Z",
+  "generated": "2026-10-30T10:18:15Z",
   "skills": [
     "golang",
     "c++"
@@ -26,16 +26,16 @@
       "posted": "2026-10-17"
     },
     {
-      "title": "Linux Platform Integration - Ubuntu Systems Senior Engineer",
+      "title": "Golang Software Engineer, Commercial Systems",
       "company": "Canonical",
-      "location": "Anywhere",
+      "location": "EMEA",
       "jobType": "Full-time",
       "salary": "",
       "source": "Jobicy",
-      "url": "https://jobicy.com/jobs/149574-linux-platform-integration-ubuntu-systems-senior-engineer",
+      "url": "https://jobicy.com/jobs/157772-golang-software-engineer-commercial-systems",
       "reason": "",
       "tags": null,
-      "posted": "2026-10-24"
+      "posted": "2026-10-29"
     },
     {
       "title": "Golang Engineer",
@@ -50,18 +50,6 @@
       "posted": "2026-10-24"
     },
     {
-      "title": "Staff Software Engineer-ClickHouse Committer",
-      "company": "EDB",
-      "location": "EMEA",
-      "jobType": "Full-time",
-      "salary": "",
-      "source": "Jobicy",
-      "url": "https://jobicy.com/jobs/156381-staff-software-engineer-clickhouse-committer",
-      "reason": "",
-      "tags": null,
-      "posted": "2026-10-22"
-    },
-    {
       "title": "Software Engineer AI Coding Tasks",
       "company": "Askable",
       "location": "",
@@ -72,6 +60,20 @@
       "reason": "",
       "tags": null,
       "posted": "2026-10-17"
+    },
+    {
+      "title": "Software Engineer - Backend",
+      "company": "Sardine",
+      "location": "India",
+      "jobType": "Full-time",
+      "salary": "",
+      "source": "Ashby",
+      "url": "https://jobs.ashbyhq.com/sardine/2524d206-42cb-4202-8d85-59e47c72d704/application",
+      "reason": "",
+      "tags": [
+        "Engineering"
+      ],
+      "posted": "2026-10-14"
     }
   ]
 }
