@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-31T09:51:33Z",
+  "generated": "2026-11-01T10:41:49Z",
   "skills": [
     "golang",
     "c++"
@@ -24,6 +24,18 @@
         "python"
       ],
       "posted": "2026-10-17"
+    },
+    {
+      "title": "Golang System Software Engineer - Containers / Virtualisation",
+      "company": "Canonical",
+      "location": "EMEA,  LATAM,  Canada,  USA",
+      "jobType": "Full-time",
+      "salary": "",
+      "source": "Jobicy",
+      "url": "https://jobicy.com/jobs/158296-golang-system-software-engineer-containers-virtualisation",
+      "reason": "",
+      "tags": null,
+      "posted": "2026-11-01"
     },
     {
       "title": "Golang Software Engineer, Commercial Systems",
@@ -62,18 +74,6 @@
         "Engineering"
       ],
       "posted": "2026-10-14"
-    },
-    {
-      "title": "Golang Kubernetes Engineer",
-      "company": "Arango",
-      "location": "",
-      "jobType": "",
-      "salary": "",
-      "source": "RemoteOK",
-      "url": "https://remoteOK.com/remote-jobs/remote-golang-kubernetes-engineer-arango-1137400",
-      "reason": "",
-      "tags": null,
-      "posted": "2026-09-16"
     }
   ]
 }
