@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-05T11:18:01Z",
+  "generated": "2026-11-06T11:15:23Z",
   "skills": [
     "golang",
     "c++"
@@ -26,6 +26,18 @@
       "posted": "2026-10-17"
     },
     {
+      "title": "C, Golang Software Engineer working on dqlite, a Raft extension for SQLite",
+      "company": "Canonical",
+      "location": "EMEA",
+      "jobType": "Full-time",
+      "salary": "",
+      "source": "Jobicy",
+      "url": "https://jobicy.com/jobs/150128-c-golang-software-engineer-working-on-dqlite-a-raft-extension-for-sqlite",
+      "reason": "",
+      "tags": null,
+      "posted": "2026-11-06"
+    },
+    {
       "title": "Engineering Manager - Public Cloud, Python, Golang",
       "company": "Canonical",
       "location": "EMEA,  LATAM,  Canada,  USA",
@@ -33,18 +45,6 @@
       "salary": "",
       "source": "Jobicy",
       "url": "https://jobicy.com/jobs/149985-engineering-manager-public-cloud-python-golang",
-      "reason": "",
-      "tags": null,
-      "posted": "2026-11-04"
-    },
-    {
-      "title": "Golang Engineering Manager, Commercial Systems",
-      "company": "Canonical",
-      "location": "EMEA",
-      "jobType": "Full-time",
-      "salary": "",
-      "source": "Jobicy",
-      "url": "https://jobicy.com/jobs/149984-golang-engineering-manager-commercial-systems",
       "reason": "",
       "tags": null,
       "posted": "2026-11-04"
