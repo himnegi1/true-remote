@@ -1,11 +1,23 @@
 {
-  "generated": "2026-11-06T11:15:23Z",
+  "generated": "2026-11-07T10:31:09Z",
   "skills": [
     "golang",
     "c++"
   ],
   "count": 5,
   "jobs": [
+    {
+      "title": "Senior Software Engineer - Python/Golang - Kubernetes",
+      "company": "Canonical",
+      "location": "EMEA,  LATAM,  Canada,  USA",
+      "jobType": "Full-time",
+      "salary": "",
+      "source": "Jobicy",
+      "url": "https://jobicy.com/jobs/159482-senior-software-engineer-python-golang-kubernetes",
+      "reason": "",
+      "tags": null,
+      "posted": "2026-11-07"
+    },
     {
       "title": "Software Engineer, AI Coding Tasks",
       "company": "Askable",
@@ -26,28 +38,16 @@
       "posted": "2026-10-17"
     },
     {
-      "title": "C, Golang Software Engineer working on dqlite, a Raft extension for SQLite",
+      "title": "Senior Juju Software Engineer (Go)",
       "company": "Canonical",
       "location": "EMEA",
       "jobType": "Full-time",
       "salary": "",
       "source": "Jobicy",
-      "url": "https://jobicy.com/jobs/150128-c-golang-software-engineer-working-on-dqlite-a-raft-extension-for-sqlite",
+      "url": "https://jobicy.com/jobs/159443-senior-juju-software-engineer-go",
       "reason": "",
       "tags": null,
       "posted": "2026-11-06"
-    },
-    {
-      "title": "Engineering Manager - Public Cloud, Python, Golang",
-      "company": "Canonical",
-      "location": "EMEA,  LATAM,  Canada,  USA",
-      "jobType": "Full-time",
-      "salary": "",
-      "source": "Jobicy",
-      "url": "https://jobicy.com/jobs/149985-engineering-manager-public-cloud-python-golang",
-      "reason": "",
-      "tags": null,
-      "posted": "2026-11-04"
     },
     {
       "title": "Software Engineer AI Coding Tasks",
