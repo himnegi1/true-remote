@@ -1,11 +1,23 @@
 {
-  "generated": "2026-11-07T10:31:09Z",
+  "generated": "2026-11-08T10:38:33Z",
   "skills": [
     "golang",
     "c++"
   ],
   "count": 5,
   "jobs": [
+    {
+      "title": "Staff Software Engineer for Identity Management (Go/Golang)",
+      "company": "Canonical",
+      "location": "EMEA,  LATAM,  Canada,  USA",
+      "jobType": "Full-time",
+      "salary": "",
+      "source": "Jobicy",
+      "url": "https://jobicy.com/jobs/159594-staff-software-engineer-for-identity-management-go-golang",
+      "reason": "",
+      "tags": null,
+      "posted": "2026-11-07"
+    },
     {
       "title": "Senior Software Engineer - Python/Golang - Kubernetes",
       "company": "Canonical",
@@ -36,18 +48,6 @@
         "python"
       ],
       "posted": "2026-10-17"
-    },
-    {
-      "title": "Senior Juju Software Engineer (Go)",
-      "company": "Canonical",
-      "location": "EMEA",
-      "jobType": "Full-time",
-      "salary": "",
-      "source": "Jobicy",
-      "url": "https://jobicy.com/jobs/159443-senior-juju-software-engineer-go",
-      "reason": "",
-      "tags": null,
-      "posted": "2026-11-06"
     },
     {
       "title": "Software Engineer AI Coding Tasks",
