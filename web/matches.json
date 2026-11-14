@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-13T11:20:18Z",
+  "generated": "2026-11-14T10:44:33Z",
   "skills": [
     "golang",
     "c++"
@@ -14,18 +14,6 @@
       "salary": "",
       "source": "Jobicy",
       "url": "https://jobicy.com/jobs/159594-staff-software-engineer-for-identity-management-go-golang",
-      "reason": "",
-      "tags": null,
-      "posted": "2026-11-07"
-    },
-    {
-      "title": "Senior Software Engineer - Python/Golang - Kubernetes",
-      "company": "Canonical",
-      "location": "EMEA,  LATAM,  Canada,  USA",
-      "jobType": "Full-time",
-      "salary": "",
-      "source": "Jobicy",
-      "url": "https://jobicy.com/jobs/159482-senior-software-engineer-python-golang-kubernetes",
       "reason": "",
       "tags": null,
       "posted": "2026-11-07"
@@ -48,6 +36,18 @@
         "python"
       ],
       "posted": "2026-10-17"
+    },
+    {
+      "title": "Go (Golang) Software Engineer, Developer Tooling and Containers",
+      "company": "Canonical",
+      "location": "APAC",
+      "jobType": "Full-time",
+      "salary": "",
+      "source": "Jobicy",
+      "url": "https://jobicy.com/jobs/150365-go-golang-software-engineer-developer-tooling-and-containers",
+      "reason": "",
+      "tags": null,
+      "posted": "2026-11-12"
     },
     {
       "title": "Senior Software Engineer â Kubernetes Control Plane",
