@@ -1,35 +1,11 @@
 {
-  "generated": "2026-11-18T12:00:46Z",
+  "generated": "2026-11-19T11:57:32Z",
   "skills": [
     "golang",
     "c++"
   ],
-  "count": 4,
+  "count": 2,
   "jobs": [
-    {
-      "title": "Go (Golang) Software Engineer, Developer Tooling and Containers",
-      "company": "Canonical",
-      "location": "APAC",
-      "jobType": "Full-time",
-      "salary": "",
-      "source": "Jobicy",
-      "url": "https://jobicy.com/jobs/150365-go-golang-software-engineer-developer-tooling-and-containers",
-      "reason": "",
-      "tags": null,
-      "posted": "2026-11-12"
-    },
-    {
-      "title": "Open Source Networking Software Engineer - ToR Switch / SmartNIC / DPU",
-      "company": "Canonical",
-      "location": "APAC,  LATAM,  Canada,  China,  USA",
-      "jobType": "Full-time",
-      "salary": "",
-      "source": "Jobicy",
-      "url": "https://jobicy.com/jobs/150360-open-source-networking-software-engineer-tor-switch-smartnic-dpu",
-      "reason": "",
-      "tags": null,
-      "posted": "2026-11-12"
-    },
     {
       "title": "Senior Software Engineer â Kubernetes Control Plane",
       "company": "Buoyant",
