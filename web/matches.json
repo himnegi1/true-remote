@@ -1,11 +1,37 @@
 {
-  "generated": "2026-11-19T11:57:32Z",
+  "generated": "2026-11-20T11:58:51Z",
   "skills": [
     "golang",
     "c++"
   ],
-  "count": 2,
+  "count": 4,
   "jobs": [
+    {
+      "title": "Software Engineer AI Coding Tasks",
+      "company": "Askable",
+      "location": "",
+      "jobType": "",
+      "salary": "$10k–$10k",
+      "source": "RemoteOK",
+      "url": "https://remoteOK.com/remote-jobs/remote-software-engineer-ai-coding-tasks-askable-1137808",
+      "reason": "",
+      "tags": null,
+      "posted": "2026-11-19"
+    },
+    {
+      "title": "Storage Platform Engineer",
+      "company": "Supabase",
+      "location": "Remote, Global",
+      "jobType": "Full-time",
+      "salary": "",
+      "source": "Ashby",
+      "url": "https://jobs.ashbyhq.com/supabase/463d8cd7-3092-44eb-b80e-8d21008e569e/application",
+      "reason": "",
+      "tags": [
+        "Engineering"
+      ],
+      "posted": "2026-11-19"
+    },
     {
       "title": "Senior Software Engineer â Kubernetes Control Plane",
       "company": "Buoyant",
