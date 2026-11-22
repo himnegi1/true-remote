@@ -1,23 +1,11 @@
 {
-  "generated": "2026-11-21T11:30:50Z",
+  "generated": "2026-11-22T11:45:36Z",
   "skills": [
     "golang",
     "c++"
   ],
-  "count": 3,
+  "count": 2,
   "jobs": [
-    {
-      "title": "Software Engineer AI Coding Tasks",
-      "company": "Askable",
-      "location": "",
-      "jobType": "",
-      "salary": "$10k–$10k",
-      "source": "RemoteOK",
-      "url": "https://remoteOK.com/remote-jobs/remote-software-engineer-ai-coding-tasks-askable-1137808",
-      "reason": "",
-      "tags": null,
-      "posted": "2026-11-19"
-    },
     {
       "title": "Storage Platform Engineer",
       "company": "Supabase",
