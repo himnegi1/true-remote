@@ -1,11 +1,37 @@
 {
-  "generated": "2026-11-23T13:23:49Z",
+  "generated": "2026-11-24T14:03:45Z",
   "skills": [
     "golang",
     "c++"
   ],
-  "count": 2,
+  "count": 4,
   "jobs": [
+    {
+      "title": "C++/Rust Graphics and Windowing System Software Engineer - Mir",
+      "company": "Canonical",
+      "location": "APAC,  EMEA",
+      "jobType": "Full-time",
+      "salary": "",
+      "source": "Jobicy",
+      "url": "https://jobicy.com/jobs/151197-c-rust-graphics-and-windowing-system-software-engineer-mir",
+      "reason": "",
+      "tags": null,
+      "posted": "2026-11-23"
+    },
+    {
+      "title": "Software Engineer - Backend",
+      "company": "Sardine",
+      "location": "India",
+      "jobType": "Full-time",
+      "salary": "",
+      "source": "Ashby",
+      "url": "https://jobs.ashbyhq.com/sardine/2524d206-42cb-4202-8d85-59e47c72d704/application",
+      "reason": "",
+      "tags": [
+        "Engineering"
+      ],
+      "posted": "2026-11-24"
+    },
     {
       "title": "Storage Platform Engineer",
       "company": "Supabase",
@@ -21,18 +47,18 @@
       "posted": "2026-11-19"
     },
     {
-      "title": "Software Engineer - Backend",
-      "company": "Sardine",
-      "location": "India",
+      "title": "Software Engineer: Core",
+      "company": "Constructor",
+      "location": "Remote",
       "jobType": "Full-time",
       "salary": "",
-      "source": "Ashby",
-      "url": "https://jobs.ashbyhq.com/sardine/2524d206-42cb-4202-8d85-59e47c72d704/application",
+      "source": "Arbeitnow",
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/constructor/remote-software-engineer-core-180673",
       "reason": "",
       "tags": [
         "Engineering"
       ],
-      "posted": "2026-10-14"
+      "posted": "2026-11-24"
     }
   ]
 }
