@@ -1,22 +1,46 @@
 {
-  "generated": "2026-11-24T14:03:45Z",
+  "generated": "2026-11-25T13:17:07Z",
   "skills": [
     "golang",
     "c++"
   ],
-  "count": 4,
+  "count": 5,
   "jobs": [
     {
-      "title": "C++/Rust Graphics and Windowing System Software Engineer - Mir",
+      "title": "Linux Platform Integration - Ubuntu Systems Senior Engineer",
       "company": "Canonical",
-      "location": "APAC,  EMEA",
+      "location": "Anywhere",
       "jobType": "Full-time",
       "salary": "",
       "source": "Jobicy",
-      "url": "https://jobicy.com/jobs/151197-c-rust-graphics-and-windowing-system-software-engineer-mir",
+      "url": "https://jobicy.com/jobs/149574-linux-platform-integration-ubuntu-systems-senior-engineer",
       "reason": "",
       "tags": null,
-      "posted": "2026-11-23"
+      "posted": "2026-11-25"
+    },
+    {
+      "title": "Golang Engineer",
+      "company": "Canonical",
+      "location": "Anywhere",
+      "jobType": "Full-time",
+      "salary": "",
+      "source": "Jobicy",
+      "url": "https://jobicy.com/jobs/149538-golang-engineer-2",
+      "reason": "",
+      "tags": null,
+      "posted": "2026-11-25"
+    },
+    {
+      "title": "Staff Software Engineer",
+      "company": "saas.group",
+      "location": "EMEA",
+      "jobType": "Full-time",
+      "salary": "",
+      "source": "Jobicy",
+      "url": "https://jobicy.com/jobs/153697-staff-software-engineer-6",
+      "reason": "",
+      "tags": null,
+      "posted": "2026-11-22"
     },
     {
       "title": "Software Engineer - Backend",
@@ -45,20 +69,6 @@
         "Engineering"
       ],
       "posted": "2026-11-19"
-    },
-    {
-      "title": "Software Engineer: Core",
-      "company": "Constructor",
-      "location": "Remote",
-      "jobType": "Full-time",
-      "salary": "",
-      "source": "Arbeitnow",
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/constructor/remote-software-engineer-core-180673",
-      "reason": "",
-      "tags": [
-        "Engineering"
-      ],
-      "posted": "2026-11-24"
     }
   ]
 }
