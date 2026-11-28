@@ -1,11 +1,35 @@
 {
-  "generated": "2026-11-27T12:53:18Z",
+  "generated": "2026-11-28T12:05:23Z",
   "skills": [
     "golang",
     "c++"
   ],
-  "count": 4,
+  "count": 5,
   "jobs": [
+    {
+      "title": "Software Engineer - Backend",
+      "company": "Sardine",
+      "location": "Asia",
+      "jobType": "",
+      "salary": "$3000k–$5000k",
+      "source": "RemoteOK",
+      "url": "https://remoteOK.com/remote-jobs/remote-software-engineer-backend-sardine-1138211",
+      "reason": "",
+      "tags": null,
+      "posted": "2026-11-27"
+    },
+    {
+      "title": "Linux Platform Integration - Ubuntu Systems Senior Engineer",
+      "company": "Canonical",
+      "location": "Anywhere",
+      "jobType": "Full-time",
+      "salary": "",
+      "source": "Jobicy",
+      "url": "https://jobicy.com/jobs/149574-linux-platform-integration-ubuntu-systems-senior-engineer",
+      "reason": "",
+      "tags": null,
+      "posted": "2026-11-25"
+    },
     {
       "title": "Golang Engineer",
       "company": "Canonical",
@@ -19,30 +43,16 @@
       "posted": "2026-11-25"
     },
     {
-      "title": "C++/Rust Graphics and Windowing System Software Engineer - Mir",
-      "company": "Canonical",
-      "location": "APAC,  EMEA",
+      "title": "Staff Software Engineer",
+      "company": "saas.group",
+      "location": "EMEA",
       "jobType": "Full-time",
       "salary": "",
       "source": "Jobicy",
-      "url": "https://jobicy.com/jobs/151197-c-rust-graphics-and-windowing-system-software-engineer-mir",
+      "url": "https://jobicy.com/jobs/153697-staff-software-engineer-6",
       "reason": "",
       "tags": null,
-      "posted": "2026-11-23"
-    },
-    {
-      "title": "Software Engineer - Backend",
-      "company": "Sardine",
-      "location": "India",
-      "jobType": "Full-time",
-      "salary": "",
-      "source": "Ashby",
-      "url": "https://jobs.ashbyhq.com/sardine/2524d206-42cb-4202-8d85-59e47c72d704/application",
-      "reason": "",
-      "tags": [
-        "Engineering"
-      ],
-      "posted": "2026-11-24"
+      "posted": "2026-11-22"
     },
     {
       "title": "Storage Platform Engineer",
